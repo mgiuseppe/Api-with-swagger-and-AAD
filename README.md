@@ -5,8 +5,8 @@ This repository contains a sample API protected by AAD and a Swagger UI accessin
 ## Prerequisites - Register API in AAD
 
 1. Register an API on AAD 
-	1. Add Application ID URI (used as audience and as prefix for scopes)
-	2. Add sample scopes
+	1. Add Application ID URI (used as audience and as prefix for scopes) (e.g. api://b1e43d8e-5c99-47e1-8adb-1967abfac058/test-api)
+	2. Add sample scopes (e.g. Invoice.Read, Product.Read)
 
 2. Register a CLIENT on AAD (to assign to swagger UI)
 	1. Set the api scopes that swagger UI needs to access
