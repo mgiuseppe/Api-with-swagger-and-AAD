@@ -1,6 +1,6 @@
 # API WITH SWAGGER AND AAD
 
-This repository contains a sample API protected by AAD and a Swagger UI accessing the API.
+This repository contains a sample API protected by AAD and a Swagger UI accessing the API through oauth2.
 
 ## Prerequisites - Register API in AAD
 
@@ -11,7 +11,8 @@ This repository contains a sample API protected by AAD and a Swagger UI accessin
 2. Register a CLIENT on AAD (to assign to swagger UI)
 	1. Set the api scopes that swagger UI needs to access
 	2. Set the following redirect uri: https://localhost:5001/swagger/oauth2-redirect.html
-	3. [Optional] Set implicit flow to return id_token and access_token from authorization endpoint if you want to use this flow
+	3. [Optional - Implicit flow] Set implicit flow to return id_token and access_token from authorization endpoint if you want to use this flow
+	4. [Optional - Authorization Code flow] Create a client secret if you want to use authorization code flow on swagger (i didn't achieve to make it work because of CORS errors)
 
 3. Edit startup.cs to enable jwt authentication and authorization for API and Swagger
 
