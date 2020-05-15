@@ -19,5 +19,5 @@ This repository contains a sample API protected by AAD and a Swagger UI accessin
 
 ### Partial references
 
-https://jpda.dev/using-nswag-and-swagger-ui-with-b2c // this one uses aad b2c whose endpoint are slightly different
+https://jpda.dev/using-nswag-and-swagger-ui-with-b2c // this one uses aad b2c whose endpoint are slightly different. This is also a nice reference to see how to set app registration on AAD.
 https://joonasw.net/view/testing-azure-ad-protected-apis-part-1-swagger-ui // this one uses scopes but the article isn't flowless 
