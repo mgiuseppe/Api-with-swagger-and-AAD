@@ -1,6 +1,7 @@
 # API WITH SWAGGER AND AAD
 
-This repository contains a sample API protected by AAD and a Swagger UI accessing the API through oauth2.
+This repository contains a sample API protected by AAD and a Swagger UI accessing the API as a client through oauth2.
+The Swagger UI is using implicit flow.
 
 ## Prerequisites - Register API in AAD
 
